@@ -1,0 +1,88 @@
+.container {
+  max-width: 2480px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #EAF2F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-navbar {
+  max-width: 2480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-buttons {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: #EAF2F5;
+}
+
+#menu-button {
+  display: flex;
+  align-items: center;
+}
+
+#menu-button-input {
+  position: absolute;
+  right: 10%;
+}
+#menu-button label {
+  position: absolute;
+  right: 8%;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.color-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colored-button {
+  border: none;
+  border-radius: 50%;
+}
+
+#pink-button label {
+  display: block;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#new-pink-input {
+  background-color: #FF00FF;
+}
+
+#green-button label {
+  display: block;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#submit-green-input {
+  background-color: #49FF12;
+}
+
+.home-title {
+  text-align: center;
+  vertical-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.home-title h2 {
+  font-size: 35px;
+}
+
+.home-title h1 {
+ font-size: 166px;
+ font-family: 'Staatliches', cursive;
+ margin: 0;
+ font-weight: normal;
+}
