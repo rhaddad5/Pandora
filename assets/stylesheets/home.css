@@ -115,3 +115,37 @@ body {
   grid-column: 2;
   font-size: 22px;
 }
+
+.spring-exhib-artworks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: max-content(400px);
+  grid-gap: 2%;
+  margin-top: 5%;
+}
+
+#first-artwork {
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+
+#second-artwork {
+  grid-column: 2;
+  grid-row: 2 / 4;
+}
+
+#third-artwork {
+  grid-column: 3;
+  grid-row: 3 / 5;
+}
+
+#fourth-artwork {
+  grid-column: 1 / 3;
+  grid-row: 5 / 7;
+}
+
+#fifth-artwork {
+  grid-column: 3;
+  grid-row: 6 / 10;
+}
