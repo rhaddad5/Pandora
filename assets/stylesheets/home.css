@@ -119,9 +119,8 @@ body {
 .spring-exhib-artworks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: max-content(400px);
-  grid-gap: 2%;
   margin-top: 5%;
+  margin-left: 2%;
 }
 
 #first-artwork {
@@ -138,6 +137,7 @@ body {
 #third-artwork {
   grid-column: 3;
   grid-row: 3 / 5;
+  margin-left: 5%;
 }
 
 #fourth-artwork {
@@ -147,5 +147,51 @@ body {
 
 #fifth-artwork {
   grid-column: 3;
-  grid-row: 6 / 10;
+  grid-row: 6 / 8;
+  margin-right: 8%;
+}
+
+#sixth-artwork {
+  grid-column: 1 / 3;
+  grid-row: 8 / 9;
+}
+
+#seventh-artwork {
+  grid-column: 2 / 4;
+  grid-row: 9 / 11;
+  margin-top: 20%;
+}
+
+#eighth-artwork {
+  grid-column: 1;
+  grid-row: 11 / 13;
+  margin-top: 15%;
+}
+
+#ninth-artwork {
+  grid-column: 2 / 4;
+  grid-row: 12 / 14;
+  margin-left: 15%;
+}
+
+.contact-us {
+  line-height: 80%;
+  text-align: left;
+  margin-left: 5%;
+}
+.contact-us h2 {
+  font-size: 70px;
+  font-weight: normal;
+}
+
+#bold-title {
+  font-weight: bold;
+}
+
+#logo {
+  font-size: 61px;
+  font-family: 'Staatliches', cursive;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 15%;
 }
