@@ -35,7 +35,7 @@ body {
 #menu-button label {
   position: absolute;
   right: 8%;
-  font-size: 20px;
+  font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -53,7 +53,7 @@ body {
 
 #pink-button label {
   display: block;
-  font-size: 20px;
+  font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -63,7 +63,7 @@ body {
 
 #green-button label {
   display: block;
-  font-size: 20px;
+  font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -121,7 +121,19 @@ body {
   padding-left: 5%;
 }
 
-@media only screen and (min-width : 1224px){
+img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width : 700px){
+  .paragraph-art {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin-top: 5%;
+  }
+
   .spring-exhib-artworks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -133,7 +145,6 @@ body {
     grid-column: 1;
     grid-row: 1 / 4;
   }
-
 
   #second-artwork {
     grid-column: 2;
@@ -181,7 +192,13 @@ body {
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+  .paragraph-art {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+  }
+
   .spring-exhib-artworks {
     display: grid;
     grid-template-columns: 1fr;
